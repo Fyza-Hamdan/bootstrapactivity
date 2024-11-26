@@ -3,7 +3,7 @@
   margin:0;
   padding:0;
   box-sizing: border-box;
-  /* outline: 1px dashed #000; */
+  /* outline: 1px dashed #fff; */
 }
 
 html{
@@ -21,18 +21,18 @@ body{
   background-blend-mode: overlay;
 }
 
-.btn-primary{
+.btn-success{
   background-color:#ea383c !important;
   border: none !important;
 }
 
-.btn-primary:hover{
+.btn-success:hover{
   background-color:rgba(234, 56, 59, 0.7) !important;
   border: none !important;
 }
 
 
-.btn-primary-shadow{
+.btn-success-shadow{
   box-shadow: .1rem .3rem .5rem rgba(0, 0, 0, 0.5);
 }
 
@@ -73,3 +73,6 @@ body{
   background-image: url("../img/imgplaceholder.png");
   /* text-indent: -9999px; */ /* remove or comment out text indent if all images are available */
 }
+
+/* Footer 2 */
+.footer
